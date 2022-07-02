@@ -1,0 +1,33 @@
+form {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    // background-color: #d8c5eb;
+}
+
+.finder__label {
+    color: #372566;
+}
+
+.finder__input {
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px; 
+    outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+    height: 24px;
+    width: 250px; 
+    color: #553c9a; //цвет шрифта в момент ввода
+}
+
+.finder__submit {
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px; 
+    outline: none;
+    height: 28px;
+    width: 100px; 
+    color: #553c9a;
+}
