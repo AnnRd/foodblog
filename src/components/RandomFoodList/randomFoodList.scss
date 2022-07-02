@@ -1,0 +1,19 @@
+.random-list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    column-gap: 225px;
+    align-items: start;
+    border: 3px solid #b393d3;
+    width: 535px;
+}
+
+.random-list__li {
+    width: 200px;
+    height: 318px;
+    list-style-type: none; 
+        img {
+            width: 200px;
+            height: 200px;
+        }
+}
