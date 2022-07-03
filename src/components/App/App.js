@@ -13,11 +13,11 @@ function App() {
       <main>
         {/* <Menu/> */}
         <FoodFinder/>
-        {/* <RandomFoodList/> */}
-        <div className="flex">
+        <RandomFoodList/>
+        {/* <div className="flex">
           <RandomFoodList/>
-          <RandomFoodList/>
-        </div>
+          
+        </div> */}
       </main>
     </div>
   );

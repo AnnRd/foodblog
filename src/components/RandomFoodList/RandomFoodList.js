@@ -5,7 +5,7 @@ function RandomFoodList () {
         <ul className='random-list'>
             <li className='random-list__li'>
                 <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
+                <div>Decscription иоолч</div>
             </li>
             <li className='random-list__li'>
                 <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
@@ -35,18 +35,10 @@ function RandomFoodList () {
                 <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
                 <div>Decscription</div>
             </li>
-            <li className='random-list__li'>
+            {/* <li className='random-list__li'>
                 <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
                 <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
+            </li> */}
         </ul>
     )
 }

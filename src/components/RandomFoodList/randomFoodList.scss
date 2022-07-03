@@ -1,19 +1,45 @@
 .random-list {
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 60px 60px;
-    column-gap: 225px;
-    align-items: start;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    // display: grid;
+    // // grid-template-rows: 660px 660px;
+    // // column-gap: 225px;
+    // grid-template-columns: repeat(4, 1fr); //величина с единицей измерения fr, определяющая коэффициент размера полосы
+    // grid-template-rows: repeat(3, 300px);
+    justify-content: space-around;
     border: 3px solid #b393d3;
-    width: 535px;
+    // width: 535px;
+    // width: 100%;
+
 }
 
 .random-list__li {
-    width: 200px;
-    height: 318px;
+    width: 20%;
+    height: 350px;
+    padding: 20px;
+    
+    background-color: rgb(179, 147, 211, 0.3); //0.3 задает прозрачность
+    border-radius: 5%;
+    margin: 5px;
     list-style-type: none; 
         img {
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
+            margin-left: 19px;
+        }
+        div {
+            font-size: 25px;
+            font-weight: bold;
+            display: inline-block;
+            border: 1px solid purple;
+            justify-content: center; //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+            background-image: radial-gradient(ellipse, #553c9a, #b393d3);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
         }
 }
