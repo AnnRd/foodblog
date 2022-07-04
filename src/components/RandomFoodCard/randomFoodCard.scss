@@ -1,4 +1,4 @@
-.random-list {
+.list {
     // margin-top: 50px;
     // margin-left: 50px;
     // margin-right: 50px;
@@ -6,6 +6,12 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+
+    // transition: 1s;
+        :hover {
+            transform: scale(1.1);
+        }
+
     // display: grid;
     // // grid-template-rows: 660px 660px;
     // // column-gap: 225px;
@@ -18,29 +24,37 @@
 
 }
 
-.random-list__li {
+.card {
+    display: flex;
+    flex-direction: column;
     width: 20%;
     height: 350px;
     padding: 20px;
     
+    box-shadow: 10px 5px 5px rgb(159, 130, 187);
     background-color: rgb(179, 147, 211, 0.3); //0.3 задает прозрачность
     border-radius: 5%;
     margin: 20px;
     list-style-type: none; 
-        img {
-            width: 300px;
-            height: 300px;
-            margin-left: 19px;
-        }
-        div {
-            font-size: 25px;
-            font-weight: bold;
-            display: inline-block;
-            border: 1px solid purple;
-            justify-content: center; //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-            background-image: radial-gradient(ellipse, #553c9a, #b393d3);
-            color: transparent;
-            background-clip: text;
-            -webkit-background-clip: text;
-        }
+    transition: 1s;
+        
+}
+
+.food-img {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    // margin: 20px;
+}
+
+.food-name {
+    font-size: 25px;
+    font-weight: bold;
+    // display: inline-block;
+    border: 1px solid purple;
+    justify-content: center; //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    background-image: radial-gradient(ellipse, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }

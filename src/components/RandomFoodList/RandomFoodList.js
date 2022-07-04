@@ -1,45 +1,10 @@
-import './randomFoodList.scss';
+import RandomFoodCard from "../RandomFoodCard/RandomFoodCard";
 
-function RandomFoodList () {
+function RandomFoodList ({data}) {
     return (
-        <ul className='random-list'>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription иоолч</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li>
-            {/* <li className='random-list__li'>
-                <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="" />
-                <div>Decscription</div>
-            </li> */}
-        </ul>
+        data.map((dish) => {
+            return <RandomFoodCard name={dish.name} img={dish.img}/>
+        })
     )
 }
 

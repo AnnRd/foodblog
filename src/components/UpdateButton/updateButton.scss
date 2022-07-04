@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.update-button {
+    font-size: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    color: #553c9a;
+    //position: absolute;
+    justify-content: center;
+}
