@@ -1,58 +1,30 @@
-.list {
-    // margin-top: 50px;
-    // margin-left: 50px;
-    // margin-right: 50px;
-    margin: 50px;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-
-    // transition: 1s;
-        :hover {
-            transform: scale(1.1);
-        }
-
-    // display: grid;
-    // // grid-template-rows: 660px 660px;
-    // // column-gap: 225px;
-    // grid-template-columns: repeat(4, 1fr); //величина с единицей измерения fr, определяющая коэффициент размера полосы
-    // grid-template-rows: repeat(3, 300px);
-    justify-content: space-around;
-    //border: 3px solid #b393d3;
-    // width: 535px;
-    // width: 100%;
-
-}
-
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     height: 350px;
-    padding: 20px;
-    
-    box-shadow: 10px 5px 5px rgb(159, 130, 187);
-    background-color: rgb(179, 147, 211, 0.3); //0.3 задает прозрачность
     border-radius: 5%;
     margin: 20px;
-    list-style-type: none; 
+    background-color: rgb(179, 147, 211, 0.3); //0.3 задает прозрачность
     transition: 1s;
-        
+
 }
 
 .food-img {
     width: 300px;
     height: 300px;
-    align-self: center;
-    // margin: 20px;
+    border-radius: 3%;
+        :not(:hover) {
+            transform: scale(1.1);
+    
+    }
 }
 
 .food-name {
     font-size: 25px;
     font-weight: bold;
-    // display: inline-block;
-    border: 1px solid purple;
-    justify-content: center; //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     background-image: radial-gradient(ellipse, #553c9a, #b393d3);
     color: transparent;
     background-clip: text;
