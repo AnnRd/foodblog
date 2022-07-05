@@ -1,10 +1,10 @@
 import './randomFoodCard.scss';
 
 function RandomFoodCard (props) {
-    const {img, name} = props;
+    const {img, name, key} = props;
     return (
-            <div className='card'>
-                <img className='food-img' src={img} alt="" />
+            <div className='card' id={key}>
+                <img className='food-img' src={img} alt={name} />
                 <div className='food-name'>{name}</div>
             </div>
     )

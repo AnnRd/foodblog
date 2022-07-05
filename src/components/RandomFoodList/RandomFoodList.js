@@ -16,9 +16,6 @@ function RandomFoodList () {
         getMeals();
     }, []);
 
-    console.log(foodList);
-
-
     return (
         <div className="list">
             {foodList.categories?.map((dish) => {

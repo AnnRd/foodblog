@@ -4,7 +4,7 @@ import RandomFoodList from "../RandomFoodList/RandomFoodList";
 import Menu from "../Menu/Menu";
 import UpdateButton from "../UpdateButton/UpdateButton";
 
-// import './app.scss';
+import './app.scss';
 
 
 
